@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Carl Summers</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#projects">Projects</a></li>
+          <li class="nav-item mt-1 ms-2"><a class="btn btn-primary" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="py-5" id="contact">
+    <div class="container" role="form" aria-labelledby="contact-form">
+      <h1 class="mb-4 w-50 mx-auto">Contact</h1>
+      <p class="w-50 mx-auto">Feel free to reach out using the form below if you have questions about my projects or are interested in job opportunities or collaborations.</p>
+      <form class="w-50 mx-auto" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="1ac0d9ce-be2e-49bb-8efc-424d55ab4672">
+        <div class="mb-3">
+          <label for="name" class="form-label">First name</label>
+          <input type="text" name="name" class="form-control" id="name" placeholder="Name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" name="email" id="email" placeholder="you@example.com" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+        </div>
+        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+      <footer class="text-center py-4 bg-light mt-5">
+        <p class="mb-0">Carl Summers circa. 2025</p>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

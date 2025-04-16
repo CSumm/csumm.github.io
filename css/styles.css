@@ -1,0 +1,112 @@
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+details {
+    color: #3e439f;
+}
+
+.btn-link {
+    color: #3e439f;
+}
+
+.btn.disabled {
+    color: #3e439f;
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+a:focus {
+    outline: 1px solid inherit;
+}
+
+a.btn-primary,
+button.btn-primary {
+    background: linear-gradient(to right, #3e439f, #6468b2);
+    border: none;
+    color: white;
+}
+
+a.btn-primary:hover,
+button.btn-primary:hover,
+a.btn-primary:active,
+button.btn-primary:active {
+    background: linear-gradient(to right, #6468b2, #3e439f);
+    color: white;
+}
+
+a.btn,
+.nav-link,
+button.btn {
+    min-width: 44px;
+    min-height: 44px;
+    line-height: 32px;
+}
+
+a.btn:focus-visible {
+    outline: 1px solid inherit;
+}
+
+a.btn-primary:focus {
+    outline: 1px solid inherit;
+    outline-offset: -2px;
+}
+
+a.btn-outline-primary:hover,
+.btn:first-child:active,
+:not(.btn-check)+.btn:active {
+    background-color: #4e54c8;
+    border-color: #4e54c8;
+    color: white;
+}
+
+.btn-outline-primary {
+    border-color: linear-gradient(to right, #6468b2, #3e439f);
+    color: #3e439f;
+}
+
+.bg-gradients {
+    background: linear-gradient(to right, #3e439f, #6468b2);
+    color: white;
+}
+
+.nav-link {
+    color: rgba(0, 0, 0, 0.807);
+}
+
+.navbar-brand {
+    min-width: 44px;
+    min-height: 44px;
+    line-height: 32px;
+}
+
+
+

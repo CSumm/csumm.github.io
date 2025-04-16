@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carl Summers - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Carl Summers</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#projects">Projects</a></li>
+          <li class="nav-item mt-1 ms-2"><a class="btn btn-primary" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="py-5 d-flex flex-column align-items-center" id="home">
+    <div class="img-container">
+      <img src="img\background.jpg" alt="Profile Image" class="rounded-circle mx-auto d-block" style="width: 400px; height: 400px;">
+    </div>
+    <div class="container mt-3" role="region" aria-label="Introduction">
+      <h1>Hi! I’m Carl Summers.</h1>
+      <p class="lead">I am a web developer with a focus on front-end and accessibility. I have four years of experience building user-focused interfaces while working with a variety of stakeholders to ensure that the content is meaningful and accessible to all users. I have experience with HTML, CSS, JavaScript, jQuery, Bootstrap, Vue.js, and AEM.</p>
+      <p class="lead">I am currently looking for job opportunities in web development and UX/UI design. I am open to remote work and contract positions.</p>
+      <p class="lead">Feel free to reach out using the contact form below or connect with me on LinkedIn.</p>
+      <div class="d-flex mt-3">
+        <a href="https://www.linkedin.com/in/carl-summers-webdev/" class="btn btn-primary d-flex align-items-center" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right me-1" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+            <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+          </svg>
+          <span class="ms-2">Connect on LinkedIn</span>
+        </a>
+        <a download class="btn btn-outline-primary d-flex align-items-center ms-3" href="files/Carl_Summers_CV.pdf" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+          </svg>
+          <span class="ms-2">Download CV</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 mt-5 bg-gradients" id="projects">
+    <div class="container" role="region" aria-label="Projects">
+      <h2 class="mb-4">Projects</h2>
+      <h3 class="fw-normal">Concordia University</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <img src="img/Screenshot 2025-04-14 145049.png" alt="Project Image" class="img-fluid mb-3">
+              <h4 class="card-title">Concordia tuition estimator</h4>
+              <p class="card-text">An interactive estimator for student tuition at all levels</p>
+              <a href="project-detail.html"
+              data-id="1"
+              data-src="img\tuition-estimator.gif"
+              data-title="Concordia tuition estimator"
+              data-involvement="<ul>
+                <li>Myself</li>
+                <li>UX expert on best practices to display content and user paths and accessibility concerns, who worked closely to get specifications and clarity from stakeholders</li>
+ <li>UI designer who worked with Figma and worked alongside the UX expert</li>
+<li>project manager who aided in testing data and structuring documentation with overview of how data is being conditionally calculated; developed endpoints through AEM endpoints that were queried via code implementation</li>
+<li>Manager or my lead who was overseeing the time estimates and timeframe of the project</li>
+              </ul>"
+              data-role="<ul>
+                <li>implementation of financial data logic and UI functionality</li>
+                <li>Constructing documentation of all conditional paths for each option in the tuition estimator including special clauses defined by the stakeholder; lot of this was done in conjunction with the project manager</li>
+                <li>Worked closely with UX/UI on how to implement UI flow and how to display financial data in a meaningful way</li>
+                <li>Worked with project manager who aided in structuring and testing data shown from tuition estimator, and provided an endpoint with the financial data to be pulled in</li>
+              </ul>"
+              data-factors="<ul>
+                  <li>Accessible UI and navigation for disabled and sight impaired users; using screen reader and keyboard testing to thoroughly discover issues</li>
+                  <li>Bootstrap 5 component functionality through custom tooltips that work with both mouse and keyboard, and are read by screen readers</li>
+                  <li>Understandable and meaningful content implementation by showing it to the correct audience</li>
+                  <li>Implement multiple conditions for the various options chosen through the UI and do necessary calculations on financial data</li>
+                  <li>Provide time estimates to my manager</li>
+                  <li>Use of jQuery and JavaScript, CSS, HTML for styling and functionality</li>
+                  <li>AEM and content fragments</li>
+                  <li>GitHub for code storage and version control</li>
+                </ul>"
+              data-link="https://www.concordia.ca/students/financial/tuition-fees/rates.html"
+              class="btn btn-outline-primary portfolio-btn">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <img src="img/Screenshot 2025-04-14 145919.png" alt="Project Image" class="img-fluid mb-3">
+              <h4 class="card-title">Experiential Learning course search</h4>
+              <p class="card-text">Search for courses with hands-on learning to add to custom user lists</p>
+              <a href="project-detail.html"
+              data-id="2"
+              data-src="img\experiential-learning.gif"
+              data-title="Experiential Learning course search"
+              data-involvement="<ul><li>Myself and my lead who was overseeing the project</li></ul>"
+              data-role="<ul>
+                <li>Update existing code to Bootstrap 5 and modernize the UI</li>
+                <li>Update the UI so that it is fully accessible to screen reader</li>
+                <li>Work with Vue to update filtering functionality displaying additional metadata content relating to each course</li>
+                <li>Embedding in AEM and using FileZilla FTP server to upload files to host server</li>
+                <li>Cleaning Excel data and compiling into CSV for upload to Concordia’s Open Data service</li>
+              </ul>"
+              data-factors="<ul>
+                <li>Keeping track of new content to add and that it is correct</li>
+                <li>Ensuring that the UI and design is accessible to all users</li>
+                <li>Check with stakeholders about specifications and update them on progress</li>
+              </ul>"
+              data-link="https://www.concordia.ca/academics/experiential-learning/students/search.html"
+              class="btn btn-outline-primary portfolio-btn">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <img class="img-fluid mb-3" src="img\Screenshot 2025-04-14 150159.png" alt="Project Image">
+              <h4 class="card-title">Faceted search lists and sortable tables</h4>
+              <p class="card-text">Interactive lists and tables with sorting and filtering capabilities</p>
+              <a href="project-detail.html"
+              data-id="3"
+                  data-src="img\faceted-search-list.gif"
+                 data-title="Faceted search lists and sortable tables"
+                 data-involvement="<ul><li>Myself and the webmaster in charge of the project</li></ul>"
+                  data-role="<ul>
+                    <li>Update UI of faceted search to Bootstrap 5 and fix filtering using vanilla JavaScript</li>
+                    <li>Create sortable table using <span><a href='https://mottie.github.io/tablesorter/docs/'></a>Tablesorter</span> library which can use multiple query parameters passed to the table</li>
+                  </ul>"
+                  data-factors="<ul>
+                    <li>Legacy code with broken functionality had to be updated</li>
+                    <li>Client was specific about layout of the table and how it should look</li>
+                  </ul>"
+                  data-link="https://www.concordia.ca/artsci/scpa/quescren/researchers/Researcher-directory.html"
+                 class="btn btn-outline-primary portfolio-btn">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h3 class="mt-5 fw-normal">Personal projects</h3>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h4 class="card-title">Floatmellow dashboard</h4>
+              <p class="card-text">Work in progress</p>
+              <a href="project-detail.html"
+                data-id="4"
+                data-title=""
+                data-description=""
+                data-role=""
+                data-factors=""
+                data-link=""
+                class="btn btn-outline-primary portfolio-btn disabled">
+                Unavailable
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h4 class="card-title">TBD</h4>
+              <p class="card-text">Will be announced</p>
+              <a href="project-detail.html"
+                data-id="5"
+                data-title=""
+                data-description=""
+                data-role=""
+                data-factors=""
+                data-link=""
+                class="btn btn-outline-primary portfolio-btn disabled">
+                Unavailable
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5" id="contact">
+    <div class="container" role="region" aria-label="Contact form">
+      <h2 class="mb-4 w-50 mx-auto">Contact</h2>
+      <p class="w-50 mx-auto">Feel free to reach out using the form below if you have questions about my projects or are interested in job opportunities or collaborations.</p>
+      <form class="w-50 mx-auto" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="1ac0d9ce-be2e-49bb-8efc-424d55ab4672">
+        <div class="mb-3">
+          <label for="name" class="form-label">First name</label>
+          <input type="text" name="name" class="form-control" id="name" placeholder="Name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" name="email" id="email" placeholder="you@example.com" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+        </div>
+        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="text-center py-4 bg-light mt-5">
+    <p class="mb-0">Carl Summers circa. 2025</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
