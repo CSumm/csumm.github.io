@@ -44,6 +44,11 @@ details {
     pointer-events: none;
 }
 
+.btn.disabled:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 a:focus {
     outline: 1px solid inherit;
 }
