@@ -2,7 +2,6 @@ let portfolioBtns = document.querySelectorAll('.portfolio-btn');
 
 portfolioBtns.forEach((btn) => {
     btn.addEventListener('click', () => {
-        let id = btn.getAttribute('data-id');
         let image = btn.getAttribute('data-src');
         let title = btn.getAttribute('data-title');
         let involvement = btn.getAttribute('data-involvement');
@@ -16,9 +15,5 @@ portfolioBtns.forEach((btn) => {
         localStorage.setItem('role', role);
         localStorage.setItem('factors', factors);
         localStorage.setItem('link', link);
-
-        let url = 'pages/portfolio-detail.html';
-        url.searchParams.append('id', id);
-        window.location.href = url;
     });
 });
