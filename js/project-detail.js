@@ -6,6 +6,8 @@ let storedRole = localStorage.getItem('role');
 let storedFactors = localStorage.getItem('factors');
 let storedLink = localStorage.getItem('link');
 
+let portfolioLinkElement = document.querySelector('.js-portfolio-link');
+
 // Set the data to the elements
 if (storedImage) {
    document.querySelector('.portfolio-image').src = storedImage;
@@ -22,6 +24,12 @@ if (storedRole) {
 if (storedFactors) {
     document.querySelector('.js-portfolio-factors').innerHTML = storedFactors;
 }
-if (storedLink) {
-    document.querySelector('.js-portfolio-link').href = storedLink;
+if (storedLink != "") {
+    portfolioLinkElement.href = storedLink;
+    portfolioLinkElement.style.opacity = "1";
+    portfolioLinkElement.style.pointerEvents = "auto";
+} else {
+    portfolioLinkElement.style.opacity = "0.5";
+    portfolioLinkElement.style.pointerEvents = "none";
+    portfolioLinkElement.textContent = "Link not available";
 }
