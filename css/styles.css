@@ -108,5 +108,37 @@ a.btn-outline-primary:hover,
     line-height: 32px;
 }
 
+.image-animated {
+    display: inline-block;
+    animation: slidein .8s ease-in forwards;
+}
+
+.fade-section {
+  animation: fadeIn linear both;
+  animation-timeline: view();
+  animation-range: entry 10% cover 40%; 
+}
+
+@keyframes slidein {
+    0% {
+        transform: translateX(-1000px) rotate(0deg);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0) rotate(360deg);
+        opacity: 100%;
+    }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 
